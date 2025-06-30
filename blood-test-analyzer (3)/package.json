@@ -1,0 +1,25 @@
+{
+  "name": "blood-test-analyzer",
+  "version": "1.0.0",
+  "description": "AI-powered blood test report analysis system",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "test": "python scripts/test_api.py",
+    "test-manual": "python scripts/manual_test.py",
+    "create-samples": "python scripts/create_sample_data.py",
+    "install": "pip install -r requirements.txt",
+    "setup": "python -m venv venv && pip install -r requirements.txt"
+  },
+  "keywords": ["ai", "medical", "blood-test", "analysis", "crewai", "fastapi", "healthcare"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/blood-test-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/blood-test-analyzer/issues"
+  },
+  "homepage": "https://github.com/yourusername/blood-test-analyzer#readme"
+}
